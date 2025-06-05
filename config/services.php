@@ -34,5 +34,9 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'tmdb' => [
+        'bearer' => env('TMDB_API_BEARER'),
+        'account_id' => env('TMDB_API_ACCOUNT_ID'),
+    ],
 
 ];
